@@ -20,6 +20,16 @@ export default function Main() {
           Link To LinkedIn
         </a>
       }
+      {
+        <a
+          href="https://drive.google.com/file/d/1qPN7ctD7yqDx-QDj0PM54-lgXV40GzPX/view?usp=sharing"
+          onClick={() => {
+            this.handleClick;
+          }}
+        >
+          Link To CV
+        </a>
+      }
     </div>
   );
 }
