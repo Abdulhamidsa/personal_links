@@ -22,36 +22,43 @@ html {
   scroll-behavior: smooth;
   overflow: hidden;
 }
+
 .Main_content {
-  display: flex 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  align-items: center;
-  width: 100%;
+  gap: 2rem;
+  width: 50svw;
   background-color: var(--prim-clr);
   border-radius: 9px;
   border: 1px var(--sec-clr) solid;
-  box-shadow: #372e2e 0px 5px 50px;
+  box-shadow: #ffffff18 0px 0px 20px;
   padding: 3rem;
   h1 {
     color: var(--accent-clr-gold);
     font-family: var(--prim-font);
-    margin-bottom: 3rem;
+    font-size: clamp(1.5rem, 2rem, 3rem);
   }
   a {
     text-decoration: none;
-    min-width: 170px;
-    width: 150px;
     background-color: var(--prim-clr);
-    padding: 0.8rem 2rem 0.8rem 2rem;
-    margin: 3rem 2rem 0 0;
+    padding: 1rem;
     color: var(--sec-clr);
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: clamp(0.5rem, 1rem, 1.5rem);
     cursor: pointer;
     transition: 0.2s ease-in-out;
   }
   a:hover {
     background-color: var(--accent-clr-gold);
     color: var(--prim-clr);
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 }
