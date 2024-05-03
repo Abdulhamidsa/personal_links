@@ -1,15 +1,13 @@
-import Main from "../components/Main";
 import React, { useEffect } from "react";
+import Content from "../components/Content";
 import { initGA } from "./analytics";
-function Main() {
+function App() {
   useEffect(() => {
     initGA();
   }, []);
-}
-function App() {
   return (
     <>
-      <Main></Main>
+      <Content></Content>
     </>
   );
 }
