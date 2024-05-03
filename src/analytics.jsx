@@ -1,4 +1,4 @@
-export const GA_TRACKING_ID = "G-5DLK4G7HBH";
+export const GA_TRACKING_ID = "G-5NYDH5E7LJ";
 export const initGA = () => {
   if (process.env.NODE_ENV === "production") {
     window.dataLayer = window.dataLayer || [];
