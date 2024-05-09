@@ -49,6 +49,7 @@ html {
     font-size: clamp(0.5rem, 1rem, 1.5rem);
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    border: 1px var(--sec-clr) solid;
   }
   a:hover {
     background-color: var(--accent-clr-gold);
